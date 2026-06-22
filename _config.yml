@@ -6,14 +6,13 @@ title: Rita van der Walt, PhD. | Portfolio # the website title (if blank, full n
 first_name: Rita
 middle_name: E.
 last_name: van der Walt
+email: "rita.vanderwalt@outlook.com"
+github_username: ritavdwalt
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: "Hardware engineer specialising in IoT, data analytics, and sensitivity analysis" # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: "" # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
