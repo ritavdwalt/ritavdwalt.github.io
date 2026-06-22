@@ -1,12 +1,10 @@
 cv:
   name: "Rita van der Walt, PhD."
-  label: "Electronic Engineer | Industrial IoT and Data Systems"
   email: "rietsvdw@gmail.com"
   location: "Western Cape, South Africa"
-  summary: "Electronic engineer (PhD) specialising in industrial IoT, embedded systems, and data reliability. Architects end-to-end data-driven hardware ecosystems, bridging the gaps among custom PCB/firmware design, cloud data pipelines, and advanced statistical modelling. Managed multi-site sensor fleets over 36 months of continuous operation, processing 2.8M+ data points with strict statistical rigour. Python expert in data processing and sensitivity analysis (open source contributor). Proven ability to translate complex technical diagnostics to strategic stakeholder decision-making, with cross-domain skills in hardware, firmware, and data analytics. Expertise in deriving actionable business insights from raw sensor telemetry using rigorous statistical frameworks (SALib, Python)."
 
   social_networks:
-    - network: "Github"
+    - network: "GitHub"
       username: "ritavdwalt"
     - network: "LinkedIn"
       username: "ritavdwalt"
@@ -15,11 +13,10 @@ cv:
     - network: "Google Scholar"
       username: "0TvCOKgAAAAJ"
 
-  address:
-    region: "Western Cape"
-    countryCode: "ZA"
-
   sections:
+  Summary:
+      - "Electronic engineer (PhD) specialising in industrial IoT, embedded systems, and data reliability. Architects end-to-end data-driven hardware ecosystems, bridging the gaps among custom PCB/firmware design, cloud data pipelines, and advanced statistical modelling. Managed multi-site sensor fleets over 36 months of continuous operation, processing 2.8M+ data points with strict statistical rigour. Python expert in data processing and sensitivity analysis (open source contributor). Proven ability to translate complex technical diagnostics to strategic stakeholder decision-making, with cross-domain skills in hardware, firmware, and data analytics. Expertise in deriving actionable business insights from raw sensor telemetry using rigorous statistical frameworks (SALib, Python)."
+      
     Education:
       - institution: "Stellenbosch University"
         area: "Electronic Engineering"
@@ -66,7 +63,7 @@ cv:
       - company: "Stroom Cargo"
         position: "Lead telemetry and embedded engineer [Contract basis]"
         start_date: "2026"
-        end_date: "Present"
+        end_date: "present"
         highlights:
           - "E-bike telemetry architecture: Directed the ground-up conceptualisation and stakeholder management for a custom cargo e-bike tracking and battery health management system."
           - "Full-stack IoT implementation: Designing complete PCB architectures in Altium for GPS logging and motor control, and engineering the device-to-cloud communication pipeline via 1NCE, AWS, and Grafana for mass fleet monitoring and management."
@@ -74,7 +71,7 @@ cv:
       - company: "Fibertime"
         position: "Lead embedded hardware engineer [Contract basis]"
         start_date: "2026"
-        end_date: "Present"
+        end_date: "present"
         highlights:
           - "Scalable security infrastructure: Leading the end-to-end productisation of a home alarm system for mass residential rollout in townships."
           - "Hardware and firmware design: Executing comprehensive hardware development (component selection, PCB design, prototyping, debugging) and writing embedded firmware with MQTT cloud integration to enable remote state management via WhatsApp."
@@ -150,24 +147,36 @@ cv:
 
     Publications:
       - title: "Time-series distribution-based global sensitivity analysis of weather impacts on classroom indoor temperatures: measurement-driven RC characterisation and retrofit insights."
-        publisher: "SSRN"
-        releaseDate: "2025"
-        summary: "Novel statistical framework: Developed a measurement-based framework to derive infrastructure characteristics, eliminating the need for physical modelling or metadata dependencies."
+        authors:
+          - "R. van der Walt"
+        journal: "SSRN"
+        date: "2025"
+        highlights:
+          - "Novel statistical framework: Developed a measurement-based framework to derive infrastructure characteristics, eliminating the need for physical modelling or metadata dependencies."
 
       - title: "Indoor temperature and CO2 in South African primary school classrooms: Inspecting brick, container, and prefab structures."
-        publisher: "Journal of Cleaner Production"
-        releaseDate: "2024"
-        summary: "Strategic benchmarking: Quantified environmental exposures of diverse infrastructures, benchmarked results against ISO, ASHRAE standards to formulate managerial guidelines for school learning environments."
+        authors:
+          - "R. van der Walt"
+        journal: "Journal of Cleaner Production"
+        date: "2024"
+        highlights:
+          - "Strategic benchmarking: Quantified environmental exposures of diverse infrastructures, benchmarked results against ISO, ASHRAE standards to formulate managerial guidelines for school learning environments."
 
       - title: "Lifting the unseen smokescreen on indoor air quality due to amenity indoor fireplaces in South African homes."
-        publisher: "Energy Research & Social Science"
-        releaseDate: "2024"
-        summary: "Risk assessment: Benchmarked particulate matter (PM) exposure against WHO guidelines, quantifying critical health risks associated with wood combustion to inform public safety strategies."
+        authors:
+          - "R. van der Walt"
+        journal: "Energy Research & Social Science"
+        date: "2024"
+        highlights:
+          - "Risk assessment: Benchmarked particulate matter (PM) exposure against WHO guidelines, quantifying critical health risks associated with wood combustion to inform public safety strategies."
 
       - title: "Dataset of indoor air parameter measurements on indoor air quality and thermal comfort in South African primary school classrooms of various building infrastructure types."
-        publisher: "Data in Brief"
-        releaseDate: "2024"
-        summary: "Data collection methodology: Documented the experimental design, sensor validation protocols, and data collection methodology for a multi-site deployment."
+        authors:
+          - "R. van der Walt"
+        journal: "Data in Brief"
+        date: "2024"
+        highlights:
+          - "Data collection methodology: Documented the experimental design, sensor validation protocols, and data collection methodology for a multi-site deployment."
 
     Skills:
       - name: "Hardware and embedded engineering"
