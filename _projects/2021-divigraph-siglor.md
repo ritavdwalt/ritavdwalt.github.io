@@ -6,4 +6,5 @@ img: assets/img/placeholder.jpg
 importance: 1
 category: "Hardware & RF"
 ---
+
 Project details coming soon.
