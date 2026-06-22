@@ -6,4 +6,5 @@ img: assets/img/placeholder.jpg
 importance: 3
 category: "IoT & Systems"
 ---
+
 Project details coming soon.
