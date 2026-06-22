@@ -6,12 +6,12 @@ title: Rita van der Walt, PhD. | Portfolio # the website title (if blank, full n
 first_name: Rita
 middle_name: Elise
 last_name: van der Walt
-email: "rita.vanderwalt@outlook.com"
+email: rita.vanderwalt@outlook.com
 github_username: ritavdwalt
 linkedin_username: ritavdwalt
 scholar_userid: 0TvCOKgAAAAJ
 orcid_id: 0009-0006-8798-1631
-youtube_id: ritavdwalt
+youtube_id: @ritavdwalt
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: "Hardware engineer specialising in IoT, data analytics, and sensitivity analysis" # the ">" symbol means to ignore newlines until "footer_text:"
@@ -471,6 +471,7 @@ enable_project_categories: true # enables categorization of projects into multip
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+cv_pdf: Rita_van_der_Walt_CV.pdf
 
 # -----------------------------------------------------------------------------
 # Library versions
