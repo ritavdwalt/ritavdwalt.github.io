@@ -78,7 +78,6 @@ al_folio:
   upgrade:
     channel: stable
     auto_apply_safe_fixes: false
-    disable_workflow_check: true
 
 # -----------------------------------------------------------------------------
 # RSS Feed
