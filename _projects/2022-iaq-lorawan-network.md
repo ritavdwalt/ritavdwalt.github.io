@@ -1,9 +1,7 @@
 ---
 layout: page
 title: IAQ LoRaWAN Sensor Network
-description: >
-  End-to-end development and deployment of a remote indoor air quality
-  monitoring system.
+description: End-to-end development of a remote indoor air quality monitoring system. <br> <span class="badge badge-pill badge-primary">PCB Design</span> <span class="badge badge-pill badge-info">C++ Firmware</span> <span class="badge badge-pill badge-success">Data Analytics</span>
 importance: 1
 category: "IoT & Systems"
 ---
