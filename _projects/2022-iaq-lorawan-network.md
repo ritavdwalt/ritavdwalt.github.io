@@ -2,8 +2,9 @@
 layout: page
 title: IAQ LoRaWAN Sensor Network
 description: End-to-end development of a remote indoor air quality monitoring system. <br> <span class="badge badge-pill badge-primary">PCB Design</span> <span class="badge badge-pill badge-info">C++ Firmware</span> <span class="badge badge-pill badge-success">Data Analytics</span>
+img: assets/img/placeholder.jpg
 importance: 1
-category: "IoT & Systems"
+category: "Academic Research"
 ---
 
 Developing a robust remote sensing network requires seamlessly integrating
