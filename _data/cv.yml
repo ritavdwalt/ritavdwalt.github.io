@@ -1,189 +1,232 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: "Rita van der Walt, PhD.[cite: 1]"
+  label: "Electronic Engineer | Industrial IoT and Data Systems[cite: 1]"
+  email: "rietsvdw@gmail.com[cite: 1]"
+  location: "Western Cape, South Africa[cite: 1]"
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: "Electronic engineer (PhD) specialising in industrial IoT, embedded systems, and data reliability.[cite: 1] Architects end-to-end data-driven hardware ecosystems, bridging the gaps among custom PCB/firmware design, cloud data pipelines, and advanced statistical modelling.[cite: 1] Managed multi-site sensor fleets over 36 months of continuous operation, processing 2.8M+ data points with strict statistical rigour.[cite: 1] Python expert in data processing and sensitivity analysis (open source contributor).[cite: 1] Proven ability to translate complex technical diagnostics to strategic stakeholder decision-making, with cross-domain skills in hardware, firmware, and data analytics.[cite: 1] Expertise in deriving actionable business insights from raw sensor telemetry using rigorous statistical frameworks (SALib, Python).[cite: 1]"
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+    - network: "Github"
+      username: "Available[cite: 1]"
+    - network: "LinkedIn"
+      username: "Available[cite: 1]"
+    - network: "ORCID"
+      username: "Available[cite: 1]"
+    - network: "YouTube"
+      username: "PhD presentation[cite: 1]"
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    region: "Western Cape"
+    countryCode: "ZA"
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: "Stellenbosch University[cite: 1]"
+        area: "Electronic Engineering[cite: 1]"
+        studyType: "PhD.[cite: 1]"
+        start_date: "2024[cite: 1]"
+        end_date: "2026[cite: 1]"
+        courses: "Title: Diagnostics of indoor air environmental exposures and climate-infrastructure vulnerability in South African schools.[cite: 1]"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Conferred March 2026[cite: 1]"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: "Stellenbosch University[cite: 1]"
+        area: "Electronic Engineering[cite: 1]"
+        studyType: "MEng.[cite: 1]"
+        start_date: "2022[cite: 1]"
+        end_date: "2023[cite: 1]"
+        courses: "Focus: Engineering of the LoRaWAN indoor air quality sensing network used for subsequent doctoral study.[cite: 1]"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Upgraded to PhD[cite: 1]"
+
+      - institution: "Stellenbosch University[cite: 1]"
+        area: "Electrical and Electronic Engineering[cite: 1]"
+        studyType: "BEng.[cite: 1]"
+        start_date: "2018[cite: 1]"
+        end_date: "2021[cite: 1]"
+        courses: "Specialisation: Robotics and electromagnetics.[cite: 1]"
+        highlights:
+          - "Conferred December 2021[cite: 1]"
+          - "Capstone project (Distinction, 85%): Designed and deployed a P2P LoRa-based water level monitoring system solution for low-resource farms.[cite: 1]"
+          - "Delivered a full-stack solution encompassing circuit/RF design, custom PCB assembly, firmware, and a local monitoring dashboard.[cite: 1]"
+          - "System operated independently of electricity or network coverage.[cite: 1]"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: "Stellenbosch University[cite: 1]"
+        position: "Doctoral researcher (Data systems and policy)[cite: 1]"
+        start_date: "2024[cite: 1]"
+        end_date: "2026[cite: 1]"
         highlights:
-          - Relativity
-          - Description 2.
+          - "Statistical engineering and data analytics: Established a robust data-to-policy framework to quantify infrastructure risk, using Python (SALib) to run Global Sensitivity Analysis (GSA) on a 2.8M+ vector longitudinal dataset and identify key drivers of climate vulnerability.[cite: 1]"
+          - "Stakeholder management and technical communication: Translated technical diagnostics into actionable guidelines for the City of Cape Town (Environmental Health Dept.) and national media, managing the interface with non-technical decision-makers.[cite: 1]"
+          - "Infrastructure optimisation and project outputs: Developed a cost-benefit framework for building retrofits to reduce climate-vulnerability of infrastructure.[cite: 1]"
+          - "This directly justified and resulted in capital upgrades (roof retrofitting) in public sector school buildings.[cite: 1]"
+          - "Regulatory compliance: Benchmarked indoor environmental quality and sensing device performance against local and international standards (ISO, ASHRAE, WHO, SANS).[cite: 1]"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: "Stroom Cargo[cite: 1]"
+        position: "Lead telemetry and embedded engineer [Contract basis][cite: 1]"
+        start_date: "2026[cite: 1]"
+        end_date: "Present"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "E-bike telemetry architecture: Directed the ground-up conceptualisation and stakeholder management for a custom cargo e-bike tracking and battery health management system.[cite: 1]"
+          - "Full-stack IoT implementation: Designing complete PCB architectures in Altium for GPS logging and motor control, and engineering the device-to-cloud communication pipeline via 1NCE, AWS, and Grafana for mass fleet monitoring and management.[cite: 1]"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: "Fibertime[cite: 1]"
+        position: "Lead embedded hardware engineer [Contract basis][cite: 1]"
+        start_date: "2026[cite: 1]"
+        end_date: "Present"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Scalable security infrastructure: Leading the end-to-end productisation of a home alarm system for mass residential rollout in townships.[cite: 1]"
+          - "Hardware and firmware design: Executing comprehensive hardware decelopment (component selection, PCB design, prototyping, debugging) and writing embedded firmware with MQTT cloud integration to enable remote state management via WhatsApp.[cite: 1]"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: "Stellenbosch University[cite: 1]"
+        position: "Specialised sensing consultant [Project basis, custom IoT solutions][cite: 1]"
+        start_date: "2023[cite: 1]"
+        end_date: "2024[cite: 1]"
+        highlights:
+          - "Mining sector (Saldanha): Designed and deployed custom SD-card based particulate matter (PM) sensors for air quality compliance monitoring in Saldanha active mining zones.[cite: 1]"
+          - "Environmental research (Forestry): Developed and manufactured custom solar-powered LoRaWAN anemometers to monitor canopy wind dynamics in Coetzenburg Forest.[cite: 1]"
+          - "Residential air monitoring: Designed a LoRaWAN household air pollution sensing network and deployed in households to quantify health risks from amenity fireplace usage in winter.[cite: 1]"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: "University of Alicante[cite: 1]"
+        position: "Visiting research collaborator (EU Horizon project)[cite: 1]"
+        start_date: "2023-05-01[cite: 1]"
+        end_date: "2023-07-01[cite: 1]"
+        highlights:
+          - "Project REMARKABLE: Rural Environmental Monitoring via Ultra-wide-area Networks.[cite: 1]"
+          - "Coordinated technical alignment on ultra-wide area networks between African and European research teams as the South African representative for Work Packages 3 and 4.[cite: 1]"
+          - "System validation (Resource-constrained environments): Validated frugal IoT sensor solutions designed for harsh operating conditions, ensuring performance met contextual, specific constraint criteria.[cite: 1]"
+          - "Knowledge integration and output: Worked to bridge the contextual gap between African and European sensing applications, resulting in the co-authorship of a conference paper.[cite: 1]"
+
+      - company: "Stellenbosch University[cite: 1]"
+        position: "Postgraduate researcher (MEng)[cite: 1]"
+        start_date: "2022[cite: 1]"
+        end_date: "2023[cite: 1]"
+        highlights:
+          - "Full-stack IoT development: Designed, developed, and deployed a proprietary LoRaWAN sensor node from concept to mass production.[cite: 1]"
+          - "Executed RF matching, custom PCB design, and mechanical enclosure modelling for high-reliability deployment.[cite: 1]"
+          - "Manufacturing lifecycle: Managed the transition from in-house prototyping (SMD soldering, PCB milling) to outsourced volume manufacturing for at-scale deployment.[cite: 1]"
+          - "Network operations: Directed the physical deployment and maintenance of the sensor fleet across multiple sites, optimising gateway uptime and power management for a 24-month data collection period.[cite: 1]"
+          - "Dataset engineering: Engineered data pipelines for the cleaning, validation, and metadata mapping of high-frequency telemetry.[cite: 1]"
+          - "Observational analysis: Provided an evidence base of indoor air environmental exposures in different infrastructure buildings, quantifying exposure levels and severity.[cite: 1]"
+          - "Compliance benchmarking: Conducted baseline environmental auditing, quantifying health, comfort, and cognition risks in educational infrastructure by benchmarking real-world sensor data against building and environmental standards (SANS, WHO, ASHRAE, ISO), forming the basis for subsequent retrofitting strategies.[cite: 1]"
+
+      - company: "Stellenbosch University[cite: 1]"
+        position: "Assistant lecturer (Analogue electronics)[cite: 1]"
+        start_date: "2022[cite: 1]"
+        end_date: "2022[cite: 1]"
+        summary: "Module: Design (E) 344 (Analogue design)[cite: 1]"
+        highlights:
+          - "Technical leadership: Managed curriculum delivery and practical assessments for 110+ undergraduate students, focusing on the design of object-avoiding autonomous vehicles.[cite: 1]"
+          - "Mentorship and debugging: Provided support for circuit debugging, designed PCBs for the project, and designed and built test benches for the analogue control systems and circuitry.[cite: 1]"
+          - "Team management: Coordinated a team of student assistants (demis) to manage workload distribution, assessment design, and semester planning.[cite: 1]"
+
+      - company: "South African National Space Agency (SANSA)[cite: 1]"
+        position: "Space weather apprentice[cite: 1]"
+        start_date: "2022-06-01[cite: 1]"
+        end_date: "2022-07-01[cite: 1]"
+        highlights:
+          - "International collaboration: Selected for the International Space Weather Camp 2022, with lectures from space agencies from USA, Germany, and South Africa, gaining practical insight into satellite communications and space weather physics.[cite: 1]"
+          - "Completed the practical leg of the space weather camp at the South African National Space Agency (SANSA), with international legs cancelled due to Covid-19 restrictions on international travel.[cite: 1]"
+          - "SDR development: Collaborated with team to build a Software Defined Radio (SDR) capable of capturing live image data from NOAA satellites.[cite: 1]"
+
+      - company: "Divigraph (Pty) Ltd.[cite: 1]"
+        position: "Graduate hardware intern (Vacation work)[cite: 1]"
+        start_date: "2021-12-01[cite: 1]"
+        end_date: "2022-01-01[cite: 1]"
+        summary: "8-week internship[cite: 1]"
+        highlights:
+          - "Compliance and verification: Executed hardware unit testing and EMC standards compliance testing, ensuring regulatory adherence for industrial-grade hardware.[cite: 1]"
+          - "Hardware development: Contributed to the iteration of existing hardware designs, focusing on reliability improvements and signal noise reduction.[cite: 1]"
+
+      - company: "Divigraph (Pty) Ltd.[cite: 1]"
+        position: "Student intern (Vacation work)[cite: 1]"
+        start_date: "2021-01-01[cite: 1]"
+        end_date: "2021-03-01[cite: 1]"
+        summary: "10-week internship[cite: 1]"
+        highlights:
+          - "PCB design and component selection: Assisted in hardware design, including schematic capture, component selection, and PCB layout.[cite: 1]"
+          - "Performance recognition: Awarded a full final-year bursary based on technical work delivery during this internship.[cite: 1]"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "Time-series distribution-based global sensitivity analysis of weather impacts on classroom indoor temperatures: measurement-driven RC characterisation and retrofit insights.[cite: 1]"
+        publisher: "SSRN[cite: 1]"
+        releaseDate: "2025[cite: 1]"
+        summary: "Novel statistical framework: Developed a measurement-based framework to derive infrastructure characteristics, eliminating the need for physical modelling or metadata dependencies.[cite: 1]"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "Indoor temperature and CO2 in South African primary school classrooms: Inspecting brick, container, and prefab structures.[cite: 1]"
+        publisher: "Journal of Cleaner Production[cite: 1]"
+        releaseDate: "2024[cite: 1]"
+        summary: "Strategic benchmarking: Quantified environmental exposures of diverse infrastructures, benchmarked results against ISO, ASHRAE standards to formulate managerial guidelines for school learning environments.[cite: 1]"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Lifting the unseen smokescreen on indoor air quality due to amenity indoor fireplaces in South African homes.[cite: 1]"
+        publisher: "Energy Research & Social Science[cite: 1]"
+        releaseDate: "2024[cite: 1]"
+        summary: "Risk assessment: Benchmarked particulate matter (PM) exposure against WHO guidelines, quantifying critical health risks associated with wood combustion to inform public safety strategies.[cite: 1]"
+
+      - title: "Dataset of indoor air parameter measurements on indoor air quality and thermal comfort in South African primary school classrooms of various building infrastructure types.[cite: 1]"
+        publisher: "Data in Brief[cite: 1]"
+        releaseDate: "2024[cite: 1]"
+        summary: "Data collection methodology: Documented the experimental design, sensor validation protocols, and data collection methodology for a multi-site deployment.[cite: 1]"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: "Hardware and embedded engineering[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-microchip"
+        keywords: "Altium Designer (schematics, PCB, RF matching), Firmware (C/C++, STM32, ESP32, low-power optimisation), SPICE simulation, Mechanical design (Autodesk Inventor), Prototyping (3D-printing, hardware iterations)[cite: 1]"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: "Data science and analytics[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-chart-line"
+        keywords: "Python (Pandas, NumPy, SciPy, Matplotlib) (VS Code), SALib (library contributor) (algorithm development, sensitivity analysis), Statistical analysis (causality, hypothesis testing), Feature engineering and metadata integration, Time-series analysis (metric derivation, KPI definition)[cite: 1]"
 
-      - name: English
-        summary: "Fluent"
+      - name: "IoT infrastructure and cloud services[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-cloud"
+        keywords: "LoRaWAN (device provisioning, gateway management, TTN), Data pipelines (APIs, webhooks, automated ingestion, JavaScript), IoT fleet maintenance[cite: 1]"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: "Development tools and standards[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-code"
+        keywords: "Git/Version control and CI/CD, Automated testing (Pytest, Black, Ruff, Flake8), LATEX (Beamer, Tikz, PGFPlots, automated reporting)[cite: 1]"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "Regulatory compliance and standards[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-shield-halved"
+        keywords: "EMC/EMI compliance testing, Industrial, environmental standards (ISO, SANS, ASHRAE), Risk auditing and benchmarking[cite: 1]"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: "Operations and leadership[cite: 1]"
+        level: "Master"
+        icon: "fa-solid fa-users"
+        keywords: "Technical project management, Cross-functional team coordination, Stakeholder engagement, technical translation[cite: 1]"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: "Open-source software: SALib (Python)[cite: 1]"
+        summary: "Core contribution: Enhanced the DMIM algorithm in SALib, the Python library for sensitivity analysis, refactoring bootstrap implementations to enable processing of real-world, non-uniform empirical data.[cite: 1]"
+        start_date: "2025[cite: 1]"
+        end_date: "2025[cite: 1]"
+
+      - name: "Dataset publication: Mendeley Data[cite: 1]"
+        summary: "Verified telemetry: Published a 24-month longitudinal dataset (T, RH, CO2, PM) across six infrastructure types, with extensive static and time-series metadata, establishing a verified high-frequency benchmark for indoor air environments.[cite: 1]"
+        start_date: "2025[cite: 1]"
+        end_date: "2025[cite: 1]"
+
+      - name: "Policy and stakeholder engagement[cite: 1]"
+        summary: "City of Cape Town, Department of Environmental Health: Invited as expert speaker for World Environmental Health Day 2025.[cite: 1] Directly advised municipal stakeholders on indoor air quality standards, influencing local environmental health strategy discussions.[cite: 1]"
+        start_date: "2025[cite: 1]"
+        end_date: "2025[cite: 1]"
+
+      - name: "Strategic communication and stakeholder engagement[cite: 1]"
+        summary: "Technical translation (eNCA, RSG, Cape Talk): Featured subject matter expert on national platforms (live TV, radio, other media).[cite: 1] Synthesised complex combustion health risk data into accessible public safety messaging, demonstrating the ability to translate technical nuance for non-technical audiences.[cite: 1]"
+        start_date: "2024[cite: 1]"
+        end_date: "2024[cite: 1]"
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Prof. Thinus Booysen[cite: 1]"
+        icon: "fa-solid fa-user"
+        reference: "Main supervisor, MEng and PhD studies, 2022-2026.[cite: 1] Professor in electronic engineering.[cite: 1] Contact details by request.[cite: 1]"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Prof. Sara Grobbelaar[cite: 1]"
+        icon: "fa-solid fa-user"
+        reference: "Co-supervisor, MEng and PhD studies, 2022-2026.[cite: 1] Professor in industrial engineering.[cite: 1] Contact details by request.[cite: 1]"
