@@ -2,33 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Stellenbosch, South Africa</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Electronic Engineer specializing in the end-to-end development of industrial IoT systems and data pipelines. I recently completed my PhD in Electronic Engineering at Stellenbosch University, where my research focused on deploying long-term remote LoRaWAN sensing networks for air quality measurement.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My engineering philosophy centers on full-lifecycle product development. My expertise spans from bespoke PCB design and power management to embedded firmware, data pipeline architecture, and statistical analysis. Rather than focusing on traditional heavy radio-frequency applications, I am deeply interested in building robust, low-power IoT solutions and extracting actionable insights from the data they generate. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond hardware and firmware, I am an active contributor to open-source software, including algorithm enhancements for the Python mathematical library SALib.
+
+---
+
+### Core Competencies
+* **Hardware & PCB Design:** Altium, KiCad, schematic capture, component selection, and power rollout management.
+* **Firmware & IoT:** C/C++, ESP32, LoRa/LoRaWAN, sensor integration, and remote deployment.
+* **Data & Analytics:** Python, data cleaning pipelines, statistical modeling, and sensitivity analysis.
