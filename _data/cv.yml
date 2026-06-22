@@ -14,9 +14,9 @@ cv:
       username: "0TvCOKgAAAAJ"
 
   sections:
-  Summary:
+    Summary:
       - "Electronic engineer (PhD) specialising in industrial IoT, embedded systems, and data reliability. Architects end-to-end data-driven hardware ecosystems, bridging the gaps among custom PCB/firmware design, cloud data pipelines, and advanced statistical modelling. Managed multi-site sensor fleets over 36 months of continuous operation, processing 2.8M+ data points with strict statistical rigour. Python expert in data processing and sensitivity analysis (open source contributor). Proven ability to translate complex technical diagnostics to strategic stakeholder decision-making, with cross-domain skills in hardware, firmware, and data analytics. Expertise in deriving actionable business insights from raw sensor telemetry using rigorous statistical frameworks (SALib, Python)."
-      
+
     Education:
       - institution: "Stellenbosch University"
         area: "Electronic Engineering"
