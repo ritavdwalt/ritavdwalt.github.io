@@ -2,7 +2,6 @@
 layout: page
 title: IAQ LoRaWAN Sensor Network
 description: End-to-end development and deployment of a remote indoor air quality monitoring system.
-img: assets/img/iaq_placeholder.jpg # We will update this image later!
 importance: 1
 category: "IoT & Systems"
 ---
@@ -25,12 +24,3 @@ Managing the physical layer involved moving from breadboard prototypes to mass-p
 To extract actionable insights from the hardware, the software stack had to be highly resilient.
 * **Embedded Firmware:** Developed the C/C++ firmware to handle sensor polling, power management, and LoRaWAN transmission protocols.
 * **Data Analytics:** Built the backend data collection infrastructure, executing data cleaning and processing routines to prepare the raw telemetry for research-grade analysis.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/iaq_render.jpg" title="IAQ Sensor Node" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A 3D render of the final sensor node enclosure and internal PCB assembly. 
-</div>
