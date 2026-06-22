@@ -8,6 +8,10 @@ middle_name: E.
 last_name: van der Walt
 email: "rita.vanderwalt@outlook.com"
 github_username: ritavdwalt
+linkedin_username: ritavdwalt
+scholar_userid: 0TvCOKgAAAAJ
+orcid_id: 0009-0006-8798-1631
+youtube_id: ritavdwalt
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: "Hardware engineer specialising in IoT, data analytics, and sensitivity analysis" # the ">" symbol means to ignore newlines until "footer_text:"
