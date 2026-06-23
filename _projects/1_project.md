@@ -21,6 +21,8 @@ category: "Professional"
     {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+<!-- prettier-ignore -->
 <div class="caption">High-level system data and power flow.</div>
 
 ### 3. Hardware & PCB Design
@@ -36,6 +38,8 @@ category: "Professional"
     {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Isometric" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+<!-- prettier-ignore -->
 <div class="caption">3D ECAD renders of the finalized PCB assembly.</div>
 
 ### 4. Firmware & Data Pipeline
