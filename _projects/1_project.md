@@ -9,13 +9,13 @@ category: "Professional"
 
 ### 1. The Challenge
 
-*A brief, 2-paragraph explanation of what you were asked to build, the
+_A brief, 2-paragraph explanation of what you were asked to build, the
 constraints you faced (e.g., "needed to be ultra-low power," "had to survive
-outdoor mining conditions"), and the ultimate goal.*
+outdoor mining conditions"), and the ultimate goal._
 
 ### 2. System Architecture
 
-*A brief explanation of how the system works at a high level.*
+_A brief explanation of how the system works at a high level._
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -27,8 +27,8 @@ outdoor mining conditions"), and the ultimate goal.*
 
 ### 3. Hardware & PCB Design
 
-*Discuss your component selection (Why ESP32? Why LoRa?), power management
-strategy, and any routing challenges you overcame.*
+_Discuss your component selection (Why ESP32? Why LoRa?), power management
+strategy, and any routing challenges you overcame._
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -43,13 +43,13 @@ strategy, and any routing challenges you overcame.*
 
 ### 4. Firmware & Data Pipeline
 
-*Discuss the embedded C++ logic, sleep cycles, how the data was transmitted,
-and how it was collected/cleaned on the backend.*
+_Discuss the embedded C++ logic, sleep cycles, how the data was transmitted,
+and how it was collected/cleaned on the backend._
 
 ### 5. Mechanical Integration
 
-*Discuss the Inventor CAD process, material selection, and environmental
-sealing (IP ratings).*
+_Discuss the Inventor CAD process, material selection, and environmental
+sealing (IP ratings)._
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -63,9 +63,9 @@ sealing (IP ratings).*
 
 **Project Assets:**
 
-*If you are allowed to share a redacted schematic PDF, or if you want to link
+_If you are allowed to share a redacted schematic PDF, or if you want to link
 to a public GitHub repo for the firmware, put those links here at the very
-bottom.*
+bottom._
 
 - [Download High-Level Schematic (PDF)](#)
 - [View Firmware Repository](#)
