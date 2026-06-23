@@ -9,9 +9,9 @@ category: "Professional"
 
 ### 1. The Challenge
 
-*A brief, 2-paragraph explanation of what you were asked to build, the constraints
+*A brief, 2-paragraph explanation of what you were asked to build, constraints
 you faced (e.g., "needed to be ultra-low power," "had to survive outdoor mining
-conditions"), and the ultimate goal.*
+conditions"), and ultimate goal.*
 
 ### 2. System Architecture
 
