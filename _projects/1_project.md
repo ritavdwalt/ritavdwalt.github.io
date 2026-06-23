@@ -16,6 +16,7 @@ outdoor mining conditions"), and the ultimate goal.*
 ### 2. System Architecture
 
 *A brief explanation of how the system works at a high level.*
+
 <!-- prettier-ignore -->
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -28,6 +29,7 @@ outdoor mining conditions"), and the ultimate goal.*
 
 *Discuss your component selection (Why ESP32? Why LoRa?), power management
 strategy, and any routing challenges you overcame.*
+
 <!-- prettier-ignore -->
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -48,6 +50,7 @@ how it was collected/cleaned on the backend.*
 
 *Discuss the Inventor CAD process, material selection, and environmental sealing
 (IP ratings).*
+
 <!-- prettier-ignore -->
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
