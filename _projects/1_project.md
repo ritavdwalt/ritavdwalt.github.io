@@ -21,9 +21,9 @@ outdoor mining conditions"), and the ultimate goal.*
 *A brief explanation of how the system works at a high level.*
 
 <div class="row text-center">
-<div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
-</div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">High-level system data and power flow.</div>
 
@@ -33,12 +33,12 @@ outdoor mining conditions"), and the ultimate goal.*
 strategy, and any routing challenges you overcame.*
 
 <div class="row">
-<div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Top" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Isometric" class="img-fluid rounded z-depth-1" %}
-</div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Top" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Isometric" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">3D ECAD renders of the finalized PCB assembly.</div>
 
@@ -53,9 +53,9 @@ how it was collected/cleaned on the backend.*
 (IP ratings).*
 
 <div class="row text-center">
-<div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Exploded CAD View" class="img-fluid rounded z-depth-1" %}
-</div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Exploded CAD View" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
 Exploded view demonstrating PCB mounting and enclosure sealing.
