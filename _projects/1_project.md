@@ -57,6 +57,8 @@ how it was collected/cleaned on the backend.*
     {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Exploded CAD View" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+<!-- prettier-ignore -->
 <div class="caption">
   Exploded view demonstrating PCB mounting and enclosure sealing.
 </div>
