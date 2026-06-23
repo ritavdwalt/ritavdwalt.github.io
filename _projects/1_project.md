@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Project Name
-description: One sentence summary of the project and its impact <br> <span class="badge badge-pill badge-primary">Skill 1</span> <span class="badge badge-pill badge-info">Skill 2</span>
+description: >
+  One sentence summary of the project and its impact <br>
+  <span class="badge badge-pill badge-primary">Skill 1</span>
+  <span class="badge badge-pill badge-info">Skill 2</span>
 img: assets/img/placeholder.jpg
 importance: 1
 category: "Professional"
@@ -9,9 +12,9 @@ category: "Professional"
 
 ### 1. The Challenge
 
-*A brief, 2-paragraph explanation of what you were asked to build, constraints
-you faced (e.g., "needed to be ultra-low power," "had to survive outdoor mining
-conditions"), and ultimate goal.*
+*A brief, 2-paragraph explanation of what you were asked to build, the
+constraints you faced (e.g., "needed to be ultra-low power," "had to survive
+outdoor mining conditions"), and the ultimate goal.*
 
 ### 2. System Architecture
 
