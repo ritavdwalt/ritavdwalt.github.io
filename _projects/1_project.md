@@ -9,9 +9,7 @@ category: "Professional"
 
 ### 1. The Challenge
 
-*A brief, 2-paragraph explanation of what you were asked to build, the
-constraints you faced (e.g., "needed to be ultra-low power," "had to survive
-outdoor mining conditions"), and the ultimate goal.*
+*A brief, 2-paragraph explanation of what you were asked to build, the constraints you faced (e.g., "needed to be ultra-low power," "had to survive outdoor mining conditions"), and the ultimate goal.*
 
 ### 2. System Architecture
 
@@ -27,8 +25,7 @@ outdoor mining conditions"), and the ultimate goal.*
 
 ### 3. Hardware & PCB Design
 
-*Discuss your component selection (Why ESP32? Why LoRa?), power management
-strategy, and any routing challenges you overcame.*
+*Discuss your component selection (Why ESP32? Why LoRa?), power management strategy, and any routing challenges you overcame.*
 
 <!-- prettier-ignore -->
 <div class="row">
@@ -43,13 +40,11 @@ strategy, and any routing challenges you overcame.*
 
 ### 4. Firmware & Data Pipeline
 
-*Discuss the embedded C++ logic, sleep cycles, how the data was transmitted, and
-how it was collected/cleaned on the backend.*
+*Discuss the embedded C++ logic, sleep cycles, how the data was transmitted, and how it was collected/cleaned on the backend.*
 
 ### 5. Mechanical Integration
 
-*Discuss the Inventor CAD process, material selection, and environmental sealing
-(IP ratings).*
+*Discuss the Inventor CAD process, material selection, and environmental sealing (IP ratings).*
 
 <!-- prettier-ignore -->
 <div class="row text-center">
@@ -67,8 +62,7 @@ how it was collected/cleaned on the backend.*
 
 **Project Assets:**
 
-*If you are allowed to share a redacted schematic PDF, or if you want to link to
-a public GitHub repo for the firmware, put those links here at the very bottom.*
+*If you are allowed to share a redacted schematic PDF, or if you want to link to a public GitHub repo for the firmware, put those links here at the very bottom.*
 
 - [Download High-Level Schematic (PDF)](#)
 - [View Firmware Repository](#)
