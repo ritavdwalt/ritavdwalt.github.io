@@ -1,8 +1,8 @@
 ---
 layout: page
-title: [Project Name]
-description: [One sentence summary of the project and its impact] <br> <span class="badge badge-pill badge-primary">Skill 1</span> <span class="badge badge-pill badge-info">Skill 2</span>
-img: assets/img/[hero-image-3d-render.jpg]
+title: "[Project Name]"
+description: "[One sentence summary of the project and its impact] <br> <span class='badge badge-pill badge-primary'>Skill 1</span> <span class='badge badge-pill badge-info'>Skill 2</span>"
+img: "assets/img/[hero-image-3d-render.jpg]"
 importance: 1
 category: "Professional"
 ---
