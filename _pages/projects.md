@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of professional and personal projects.
 nav: true
 nav_order: 2
-display_categories: [Professional, Academic research, Passion projects, PCB design]
+display_categories: [Highlights, Professional engagement, Academic research, Passion projects, PCB design]
 horizontal: false
 ---
 
