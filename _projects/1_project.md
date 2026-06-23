@@ -9,8 +9,8 @@ category: "Professional"
 
 ### 1. The Challenge
 
-*A brief, 2-paragraph explanation of what you were asked to build, the 
-constraints you faced (e.g., "needed to be ultra-low power," "had to survive 
+*A brief, 2-paragraph explanation of what you were asked to build, the
+constraints you faced (e.g., "needed to be ultra-low power," "had to survive
 outdoor mining conditions"), and the ultimate goal.*
 
 ### 2. System Architecture
@@ -47,12 +47,12 @@ strategy, and any routing challenges you overcame.*
 
 ### 4. Firmware & Data Pipeline
 
-*Discuss the embedded C++ logic, sleep cycles, how the data was transmitted, 
+*Discuss the embedded C++ logic, sleep cycles, how the data was transmitted,
 and how it was collected/cleaned on the backend.*
 
 ### 5. Mechanical Integration
 
-*Discuss the Inventor CAD process, material selection, and environmental 
+*Discuss the Inventor CAD process, material selection, and environmental
 sealing (IP ratings).*
 
 <!-- prettier-ignore -->
@@ -71,8 +71,8 @@ sealing (IP ratings).*
 
 **Project Assets:**
 
-*If you are allowed to share a redacted schematic PDF, or if you want to link 
-to a public GitHub repo for the firmware, put those links here at the very 
+*If you are allowed to share a redacted schematic PDF, or if you want to link
+to a public GitHub repo for the firmware, put those links here at the very
 bottom.*
 
 - [Download High-Level Schematic (PDF)](#)
