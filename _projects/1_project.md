@@ -19,9 +19,9 @@ outdoor mining conditions"), and the ultimate goal.*
 
 <!-- prettier-ignore-start -->
 <div class="row text-center">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="col-sm mt-3 mt-md-0">
+{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
+</div>
 </div>
 <!-- prettier-ignore-end -->
 
@@ -36,12 +36,12 @@ strategy, and any routing challenges you overcame.*
 
 <!-- prettier-ignore-start -->
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Top" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Isometric" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="col-sm mt-3 mt-md-0">
+{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Top" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="PCB Isometric" class="img-fluid rounded z-depth-1" %}
+</div>
 </div>
 <!-- prettier-ignore-end -->
 
@@ -61,15 +61,15 @@ sealing (IP ratings).*
 
 <!-- prettier-ignore-start -->
 <div class="row text-center">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Exploded CAD View" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="col-sm mt-3 mt-md-0">
+{% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Exploded CAD View" class="img-fluid rounded z-depth-1" %}
+</div>
 </div>
 <!-- prettier-ignore-end -->
 
 <!-- prettier-ignore-start -->
 <div class="caption">
-  Exploded view demonstrating PCB mounting and enclosure sealing.
+Exploded view demonstrating PCB mounting and enclosure sealing.
 </div>
 <!-- prettier-ignore-end -->
 
