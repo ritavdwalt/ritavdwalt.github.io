@@ -56,8 +56,7 @@ and how it was collected/cleaned on the backend.*
 
 ### 5. Mechanical Integration
 
-*Discuss the Inventor CAD process, material selection, and environmental
-sealing (IP ratings).*
+*Discuss the Inventor CAD process, material selection, and environmental sealing (IP ratings).*
 
 <!-- prettier-ignore-start -->
 <div class="row text-center">
