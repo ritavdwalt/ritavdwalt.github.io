@@ -7,9 +7,9 @@ importance: 1
 category: "Academic research"
 ---
 
-South African livestock farmers frequently drive hundreds of kilometers a week solely to verify water levels in remote grazing camps. To eliminate this operational inefficiency, I engineered a complete, automated remote water monitoring system.
+South African livestock farmers frequently drive hundreds of kilometres a week solely to verify water levels in remote grazing camps. To eliminate this operational inefficiency, I engineered a complete, automated remote water monitoring system.
 
-Operating as the **sole systems architect and developer** for my final-year engineering project, I executed the entire product lifecycle - from conceptualizing the RF hardware and writing the bare-metal firmware, to designing a locally hosted, front-end dashboard for the end-user.
+Operating as the **sole systems architect and developer** for my final-year engineering project, I executed the entire product lifecycle - from conceptualising the RF hardware and writing the bare-metal firmware, to designing a locally hosted, front-end dashboard for the end-user.
 
 The resulting system was successfully deployed and tested in harsh, real-world conditions on a farm in the Western Cape, proving its viability as a scalable agricultural IoT product.
 
@@ -17,10 +17,11 @@ The resulting system was successfully deployed and tested in harsh, real-world c
 
 ### 1. Hardware & RF engineering (Field Device)
 
-Rather than relying on pre-built development boards, I engineered a highly customized, solar-powered field device from the MCU level up to optimize power consumption and physical footprint.
+Rather than relying on pre-built development boards, I engineered a highly customised, solar-powered field device from the MCU level up to optimise power consumption and physical footprint.
 
 - **MCU & Power architecture:** Built around the STM32WL55CC (a sub-GHz wireless MCU). I designed a dual-stage voltage regulation system (1.5V and 2.5V rails) driven by a 3.7V Li-Ion battery, complete with a custom solar charge controller circuit.
-- **Custom RF impedance matching:** Calculated and routed a custom 50-ohm RF transmission line on a 4-layer FR-4 substrate. I designed a highly specific LC matching network and integrated an RF switch to optimize the 868MHz signal for maximum range.
+- **Custom RF impedance matching:** Calculated and routed a custom 50-ohm RF transmission line on a 4-layer FR-4 substrate. I designed a highly specific LC matching network and integrated an RF switch to optimise the 868MHz signal for maximum range.
+- **Antenna & RF lab validation:** Conducted rigorous laboratory testing to validate the RF front-end. I utilised **network analysers** to verify the 50-ohm impedance matching and measure the Voltage Standing Wave Ratio (VSWR) of the selected antennas. Additionally, **spectrum analysers** (including hand-held FSH4 units) were employed to measure output transmit power, verify the 868MHz carrier frequency, and conduct empirical free-space path loss testing. Mixed-signal debugging and transient analysis were performed using **oscilloscopes** to ensure stable power delivery and clean SPI communications.
 - **Design for environment:** Engineered and 3D-printed a UV-resistant, weather-proof, and animal-proof enclosure, alongside a custom mechanical sensor mount for the water troughs.
 
 <div class="row justify-content-center text-center">
@@ -36,7 +37,7 @@ Rather than relying on pre-built development boards, I engineered a highly custo
 
 To achieve sustainable, long-term deployment without battery replacement, the field device firmware was written in C using STM32CubeIDE and programmed via JTAG/SWD.
 
-- **LoRa PHY optimisation:** Configured the Sub-GHz PHY layer parameters (Spreading Factor, Bandwidth, explicit header modes) to prioritize maximum transmission range (tested successfully up to 2.9km) over high data rates, perfectly tailoring the protocol to the agricultural application.
+- **LoRa PHY optimisation:** Configured the Sub-GHz PHY layer parameters (Spreading Factor, Bandwidth, explicit header modes) to prioritise maximum transmission range (tested successfully up to 2.9km) over high data rates, perfectly tailoring the protocol to the agricultural application.
 - **Power efficiency:** Implemented software-controlled power switching. The firmware actively shuts down power to the sensors, the 1.5V regulator, and the radio modules during the 6-hour intervals between transmissions, drastically extending battery life.
 
 ---
