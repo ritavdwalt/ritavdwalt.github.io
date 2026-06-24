@@ -71,13 +71,20 @@ Complex systems require readable schematics. My schematic symbols are heavily cu
 
 A footprint is only as good as its manufacturability. I maintain a synchronised master component database that tracks critical metadata for every part.
 
-- **Manufacturer Part Numbers (MPN):** Ensuring precise and efficient ordering.
+- **Manufacturer part numbers (MPN):** Ensuring precise and efficient ordering.
 - **Alternate Sourcing:** Tracking drop-in replacements for active components to mitigate supply chain shortages.
 - **Parametric Data:** Storing tolerances, voltage ratings, and package sizes directly in the library for automated BOM generation.
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Component Metadata Schema" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/bommanage-resistors.png" title="Extract from resistors common lumped components sheet" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">The underlying metadata schema ensuring accurate procurement and automated BOM generation.</div>
+<div class="caption">Extract from resistors sheet underlying metadata schema ensuring accurate procurement and automated BOM generation.</div>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/bommanage-dropdowns.png" title="Extract from common lumped components sheet dropdown information" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Extract from common components sheet metadata and considerations ensuring accurate procurement.</div>
