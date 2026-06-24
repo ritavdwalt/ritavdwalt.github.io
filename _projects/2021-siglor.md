@@ -15,7 +15,7 @@ To optimise prototyping flexibility, testing, and future iterations, the system 
 
 <div class="row justify-content-center text-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/siglor/siglor-assembled.png" title="Assembled Siglor Device" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2021-siglor/siglor-assembled.png" title="Assembled Siglor Device" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">The fully assembled Siglor prototype, showcasing the Radio Board mounted onto the Chassis Board.</div>
