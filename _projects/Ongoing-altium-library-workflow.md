@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Component library & Lifecycle management
+title: IN PROGRESS - Component library & Lifecycle management
 description: A standardised, version-controlled ECAD library and BOM management architecture. <br> <span class="badge badge-pill badge-dark">Altium / KiCad</span> <span class="badge badge-pill badge-primary">BOM Management</span> <span class="badge badge-pill badge-secondary">DFM</span>
 img: assets/img/placeholder.jpg
 importance: 4

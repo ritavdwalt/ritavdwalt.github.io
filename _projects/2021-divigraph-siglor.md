@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Siglor Radio & Chassis Architecture
+title: IN PROGRESS - Siglor Radio & Chassis Architecture
 description: A modular, dual-board IoT sensor device for Sigfox and LoRa(WAN).
 img: assets/img/placeholder.jpg
 importance: 1

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project Name
+title: IN PROGRESS - Project Name
 description: One sentence summary of the project and its impact. <br> <span class="badge badge-pill badge-primary">PCB Design</span> <span class="badge badge-pill badge-secondary">Schematic Capture</span>
 img: assets/img/placeholder.jpg
 importance: 1
