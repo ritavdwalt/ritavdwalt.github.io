@@ -90,4 +90,3 @@ To see the hardware and full-stack software operating in real-time, please view 
 
 - [Download Full Engineering Thesis & Report (PDF)](/assets/pdf/projects/2021-skripsie/RitavdWalt-SkripsieReport-2021.pdf)
 - [Download Field Device Schematics (PDF)](/assets/pdf/projects/2021-skripsie/Field-device-schematic-and-assembly.pdf)
-- [Download Field Device 3D (PDF)](/assets/pdf/projects/2021-skripsie/Field-device-3D.pdf)
