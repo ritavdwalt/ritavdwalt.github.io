@@ -18,7 +18,7 @@ Just like me during this triathlon, this page is in progress but not finished ye
 </div>
 <div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
 
-<!-->
+<!--
 
 Developing a robust remote sensing network requires seamlessly integrating
 custom physical hardware with reliable data pipelines. This project involved
@@ -60,3 +60,5 @@ highly resilient.
 - **Data Analytics:** Built the backend data collection infrastructure,
   executing data cleaning and processing routines to prepare the raw telemetry
   for research-grade analysis.
+
+-->

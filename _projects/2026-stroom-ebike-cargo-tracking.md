@@ -18,6 +18,8 @@ Just like me during this triathlon, this page is in progress but not finished ye
 </div>
 <div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
 
-<!-->
+<!--
 
 Project details coming soon.
+
+-->

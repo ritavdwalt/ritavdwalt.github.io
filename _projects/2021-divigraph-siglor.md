@@ -18,7 +18,7 @@ Just like me during this triathlon, this page is in progress but not finished ye
 </div>
 <div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
 
-<!-->
+<!--
 
 The **Siglor** device is a custom-architected IoT environmental sensor node, designed for high reliability and multi-sensor integration and is compatible with both Sigfox and LoRa(WAN) networks. To optimize manufacturing and testing, the system is designed with a modular, dual-board architecture: an MCU-driven Radio Board and a dedicated Chassis (Mounting) Board.
 
@@ -63,3 +63,5 @@ _For IP protection, full manufacturing files, BOMs, and complete schematics are 
 
 - [Download Sanitized 3D Assembly Overview (PDF)](#)
 - [Download MCU Pinout & Interface Specification Extract (PDF)](#)
+
+-->
