@@ -2,7 +2,7 @@
 layout: page
 title: Component library & Lifecycle management
 description: A standardised, version-controlled ECAD library and BOM management architecture. <br> <span class="badge badge-pill badge-dark">Altium Designer</span> <span class="badge badge-pill badge-primary">BOM Management</span> <span class="badge badge-pill badge-secondary">DFM</span>
-img: assets/img/placeholder.jpg
+img: assets/img/projects/Ongoing-altium-library-workflow/library-pcb-3d.png
 importance: 4
 category: "Passion projects"
 ---
