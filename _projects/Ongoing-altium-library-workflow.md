@@ -29,6 +29,13 @@ Every footprint is designed adhering strictly to IPC standards, ensuring correct
 </div>
 <div class="caption">A selection of representative 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
 
+Library exerpt breakdown:
+
+- **U1** (RF/MCU): Custom ESP32 footprint featuring accurate 3D step models for mechanical clearance and optimised thermal pad expansion for reflow.
+- **U3** (Galvanic isolation): Digital isolator symbol explicitly denotes the internal isolation barrier, ensuring safe separation of digital and high-voltage ground planes during layout.
+- **JP1** (Interconnect): 16-pin USB-C receptacle capturing complex mechanical mounting pegs and precise CC/SBU pin definitions for power delivery (PD) negotiation.
+- **L1** (Power): High-current SMD inductor footprint tailored for custom switch-mode power supply (SMPS) layouts.
+
 ### 3. Design for Manufacturing (DFM) & Rules Constraints
 
 A beautiful layout is useless if the fabrication house rejects it. To eliminate production delays and guarantee high-yield manufacturing, I maintain a strictly version-controlled set of DRC (Design Rule Check) and ERC (Electrical Rule Check) profiles.
