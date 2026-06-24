@@ -21,19 +21,17 @@ This workflow is built upon three core pillars:
 
 My schematic symbols are customised to group pins by logical function (e.g., separating power domains, analogue inputs, and digital buses) rather than physical pinout, drastically enhancing readability while reducing schematic clutter and routing errors. Every footprint is designed adhering strictly to IPC standards, ensuring correct solder mask expansion, thermal relief, and precise courtyard clearances for dense component placement.
 
-<div class="row justify-content-center text-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/library-schem.png" title="Custom component library selection" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/library-schem.png" title="Custom component library selection" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/library-pcb-3d.png" title="Custom 3D footprints selection" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-<div class="caption">A selection of representative components from my custom library, prioritizing logical pin grouping.</div>
-
-<div class="row justify-content-center text-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/library-pcb-3d.png" title="Custom 3D footprints selection" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="caption">
+  <strong>Left:</strong> A selection of representative components prioritizing logical pin grouping. <strong>Right:</strong> 3D footprints designed for optimal thermal dissipation and accurate mechanical collision checking.
 </div>
-<div class="caption">3D footprints designed for optimal thermal dissipation, accurate mechanical collision checking, and high-density routing.</div>
 
 **Library Excerpt Breakdown:**
 
@@ -52,19 +50,17 @@ To eliminate production delays and guarantee high-yield manufacturing, I maintai
 
 Rather than relying on default parameters, my rule sets are tailored to specific fabrication capabilities (e.g., standard vs. advanced HDI manufacturing) and employ custom queries to automate complex constraints.
 
-<div class="row justify-content-center text-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_antennawidth.png" title="Custom DRC query for antenna and RF tracks on FR4 four-layer board" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_antennawidth.png" title="Custom DRC query for antenna and RF tracks on FR4 four-layer board" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_polygonconnect.png" title="Custom DRC query for power planes and polygons connect style" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-<div class="caption">Custom DRC query enforcing a calculated 0.35mm trace width for 50-ohm impedance matching on RF nets.</div>
-
-<div class="row justify-content-center text-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_polygonconnect.png" title="Custom DRC query for power planes and polygons connect style" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="caption">
+  <strong>Left:</strong> Custom DRC query enforcing a calculated 0.35mm trace width for 50-ohm impedance matching on RF nets. <strong>Right:</strong> Prioritised polygon connect styles applying precise thermal reliefs to SMD pads to prevent tombstoning.
 </div>
-<div class="caption">Prioritised polygon connect styles enforcing direct connections for vias while applying precise thermal reliefs to SMD pads to prevent tombstoning during reflow.</div>
 
 ---
 
