@@ -11,9 +11,9 @@ To engineer hardware reliably at scale requires moving beyond default software s
 
 This workflow is built upon three core pillars:
 
-1. **Custom PCB/SCH Library:** Over 90 meticulously designed, IPC-compliant footprints with embedded 3D models and parametric metadata.
-2. **Manufacturing Rule Sets (DFM):** Custom DRC/ERC profiles that automate complex constraints.
-3. **Component Selection Strategy:** A maintained database of common lumped components prioritising supply chain resilience, and time-and-cost-efficiency.
+1. **Custom PCB/SCH library:** Over 90 meticulously designed, IPC-compliant footprints with embedded 3D models and parametric metadata.
+2. **Manufacturing rule sets (DFM):** Custom DRC/ERC profiles that automate complex constraints.
+3. **Component selection strategy:** A maintained database of common lumped components prioritising supply chain resilience, and time-and-cost-efficiency.
 
 ---
 
@@ -30,10 +30,10 @@ My schematic symbols are customised to group pins by logical function (e.g., sep
   </div>
 </div>
 <div class="caption">
-  <strong>Left:</strong> A selection of representative components prioritizing logical pin grouping. <strong>Right:</strong> 3D footprints designed for optimal thermal dissipation and accurate mechanical collision checking.
+  <strong>Left:</strong> A selection of representative components prioritising logical pin grouping. <strong>Right:</strong> 3D footprints designed for optimal thermal dissipation and accurate mechanical collision checking.
 </div>
 
-**Library Excerpt Breakdown:**
+**Library excerpt breakdown:**
 
 - **U1 (RF/MCU):** Custom ESP32 footprint featuring accurate 3D step models for mechanical clearance and optimised thermal pad expansion for reflow.
 - **U2 (Opto-isolation):** Phototransistor optocoupler for basic signal isolation and level shifting.
@@ -77,7 +77,7 @@ I maintain a synchronised master component database that tracks critical metadat
         {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/bommanage-resistors.png" title="Extract from resistors common lumped components sheet" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">The underlying metadata schema enforcing standardized selection for passive components.</div>
+<div class="caption">The underlying metadata schema enforcing standardised selection for passive components.</div>
 
 <div class="row justify-content-center text-center">
     <div class="col-sm-9 mt-3 mt-md-0">
