@@ -1,67 +1,74 @@
 ---
 layout: page
-title: IN PROGRESS - Siglor Radio & Chassis Architecture
-description: A modular, dual-board IoT sensor device for Sigfox and LoRa(WAN).
-img: assets/img/placeholder.jpg
+title: Siglor Radio & Chassis Architecture
+description: A modular, dual-board IoT sensor device for Sigfox and LoRaWAN networks, developed during a hardware engineering internship.
+img: assets/img/projects/2021-siglor/siglor-assembled.png
 importance: 1
-category: Professional engagement
+category: "Professional engagement"
 ---
 
-### This page is still a work in progress
+The **Siglor** device is a custom-architected IoT environmental sensor node designed for high reliability, multi-sensor integration, and compatibility with both Sigfox and LoRaWAN networks.
 
-Just like me during this triathlon, this page is in progress but not finished yet!
+Developed entirely over a three-month engineering internship within a cross-functional agile team, I owned the end-to-end hardware development of this first-iteration prototype - from initial component conceptualisation to final hardware manufacturing. The successful delivery of this functional prototype, alongside comprehensive internal and client-facing documentation, directly resulted in the award of a full final-year undergraduate academic bursary.
 
-<div class="row text-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Work in progress - stay tuned!" class="img-fluid rounded z-depth-1" %}
+To optimise prototyping flexibility, testing, and future iterations, the system utilises a modular, dual-board architecture: an MCU-driven Radio Board and a dedicated Chassis (Mounting) Board.
+
+<div class="row justify-content-center text-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/siglor/siglor-assembled.png" title="Assembled Siglor Device" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
-
-<!--
-
-The **Siglor** device is a custom-architected IoT environmental sensor node, designed for high reliability and multi-sensor integration and is compatible with both Sigfox and LoRa(WAN) networks. To optimize manufacturing and testing, the system is designed with a modular, dual-board architecture: an MCU-driven Radio Board and a dedicated Chassis (Mounting) Board.
-
-This device was designed and developed as a first iteration prototype for sensing, and therefore was designed with as many prototyping and configurable features. The Chassis (Mounting) board
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/placeholder.jpg" title="Assembled Siglor Device" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Figure 1: The fully assembled Siglor device, showcasing the Radio Board mounted onto the Chassis Board via two 15-pin headers.
-</div>
-
-### Architectural Highlights
-
-- **Modular Dual-Board Design:** Separated the core processing logic (Radio Board) from the power regulation and sensor payload (Chassis Board). This isolation allows for flexible upgrades to the sensor suite without redesigning the RF-sensitive microcontroller layout.
-- **Selectable RF Engineering:** Implemented a customizable RF matching network utilizing an RF switch. By configuring specific 0402 footprint capacitors or inductors during assembly and RF matching, the hardware routes the RF signal to either an onboard chip antenna or an external SMA connector without signal degradation.
-- **Dual-Stage Power Management:** Architected a highly efficient, battery-driven power supply utilising two separate buck-boost converters.
-  - **Converter U1** provides a continuous, stable 2.5V rail for the STM32WL55CC and onboard telemetry.
-  - **Converter U4** is conditionally enabled via a GPIO pin to conserve power and features a manual hardware switch to toggle its output between 3V and 5V, accommodating a wide range of external, third-party sensors.
-- **Integrated Telemetry & Diagnostics:** Embedded primary environmental sensors directly via I2C, including eCO2 and eVOC monitoring, and precise temperature and relative humidity data. Both sensors feature dedicated power switches to eliminate idle current draw.
-- **Hardware-Level Debugging:** Incorporated dedicated $0\Omega$ resistors for isolated current measurements during the debugging phase, hardware interrupt pushbuttons for manual reset and transmitting test messages, and a bottom-layer NFC connector to prevent electromagnetic interference with the RF shield.
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/placeholder.jpg" title="Radio Board" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/placeholder.jpg" title="Chassis Board" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Left: The Radio Board featuring the STM32WL55CC, RF switch, and antenna selection footprint. Right: The Chassis Board housing the dual TPS63900 power supplies, I2C sensor payload, and external connector headers.
-</div>
+<div class="caption">The fully assembled Siglor prototype, showcasing the Radio Board mounted onto the Chassis Board.</div>
 
 ---
 
-### Project Assets
+### 1. Role & Project Ownership
 
-_For IP protection, full manufacturing files, BOMs, and complete schematics are not publicly distributed._
+Operating as the sole hardware intern embedded within a multidisciplinary hardware and firmware team, I was responsible for the full PCB design lifecycle:
 
-- [Download Sanitized 3D Assembly Overview (PDF)](#)
-- [Download MCU Pinout & Interface Specification Extract (PDF)](#)
+- **Lifecycle management:** Managed component selection, schematic capture, and custom footprint generation from scratch in Altium Designer.
+- **Cross-Functional agile workflow:** Participated in weekly sprints, design reviews, and monthly performance evaluations, utilising enterprise Git version control and secure YubiKey authentication.
+- **Manufacturing & procurement:** Prepared final fabrication files (Gerbers, NC Drill, ODB++) and managed physical PCB procurement through Würth Elektronik.
+- **Technical documentation:** Authored comprehensive handover documentation for the internal engineering team to ensure project continuity, as well as an operational manual defining hardware states (e.g., test vs. run modes) for the end client.
 
--->
+---
+
+### 2. Architectural & Technical Highlights
+
+**Modular Dual-Board Design**
+Separated the core sub-GHz processing logic (Radio Board) from the power regulation and sensor payload (Chassis Board). This isolation allows for flexible upgrades to the sensor suite without requiring a redesign of the highly sensitive, impedance-controlled RF layout.
+
+<div class="row justify-content-center text-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2021-siglor/siglor-radio-3d.png" title="Radio Board" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/siglor/siglor-chassis-3d.png" title="Chassis Board" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Left: The MCU-driven Radio Board. Right: The dedicated Chassis Board housing power regulation and sensor payloads.</div>
+
+**Configurable RF Engineering**
+The primary technical challenge involved designing a generic, high-efficiency RF front-end capable of interchanging antenna types without signal degradation.
+
+- Implemented a customisable RF matching network utilising an RF switch.
+- Incorporated specific 0402 Do-Not-Install (DNI) footprints along the transmission line, allowing for precise post-manufacturing impedance matching.
+- Calculated and routed precise trace widths, thicknesses, and RF clearances with strategic via stitching to route the signal to either an onboard chip antenna or an external SMA connector.
+
+<div class="row justify-content-center text-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2021-siglor/siglor-rf-topview.png" title="RF Circuitry Close-Up" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Impedance-controlled RF layout featuring DNI footprints for post-fabrication antenna matching and via stitching for signal integrity.</div>
+
+**Dual-Stage Power Management**
+Architected a highly efficient, battery-driven power supply utilising ultra-low quiescent current buck-boost converters.
+
+- **Primary Converter:** Provides a continuous, stable 2.5V rail for the dual-core wireless microcontroller and onboard telemetry.
+- **Secondary Converter:** Conditionally enabled via a GPIO pin to conserve power, featuring a manual hardware switch to toggle its output between 3V and 5V to accommodate a wide range of external, third-party sensors.
+
+**Integrated Telemetry & Diagnostics**
+
+- Embedded specialised environmental gas and air quality monitoring sensors directly via I2C, alongside precise temperature and relative humidity monitoring. Both sensors feature dedicated power switches to eliminate idle current draw.
+- Incorporated dedicated 0-ohm resistors for isolated current measurements during the debugging phase, hardware interrupt pushbuttons for manual reset and transmission testing, and a bottom-layer NFC connector positioned to prevent electromagnetic interference with the RF shield.
