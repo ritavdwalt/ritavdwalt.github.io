@@ -17,14 +17,14 @@ Every footprint is designed adhering strictly to IPC standards, ensuring correct
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/library-schem.jpg" title="Custom component library" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/library-schem.png" title="Custom component library" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">A selection of components from my custom library.</div>
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/library-pcb-3d.jpg" title="Custom 3D Footprints" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/library-pcb-3d.png" title="Custom 3D Footprints" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">A selection of representative 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
