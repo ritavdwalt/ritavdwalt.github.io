@@ -35,6 +35,7 @@ Library exerpt breakdown:
 - **U3** (Galvanic isolation): Digital isolator symbol explicitly denotes the internal isolation barrier, ensuring safe separation of digital and high-voltage ground planes during layout.
 - **JP1** (Interconnect): 16-pin USB-C receptacle capturing complex mechanical mounting pegs and precise CC/SBU pin definitions for power delivery (PD) negotiation.
 - **L1** (Power): High-current SMD inductor footprint tailored for custom switch-mode power supply (SMPS) layouts.
+- **H1** (External connector): Connector for external components or power supply.
 
 ### 3. Design for Manufacturing (DFM) & Rules Constraints
 
@@ -49,10 +50,18 @@ Rather than relying on default parameters, my rule sets are tailored to specific
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         <!-- Insert a cropped, zoomed-in screenshot of a complex Altium custom query or a clean snippet of a rule definition -->
-        {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Custom DRC Query" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_antennawidth.png" title="Custom DRC query for antenna and RF tracks on FR4 four-layer board" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">Custom routing queries ensuring physical constraints are automatically enforced during layout.</div>
+<div class="caption">Custom DRC query for antenna and RF tracks on FR4 four-layer board ensuring physical constraints are automatically enforced during layout.</div>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <!-- Insert a cropped, zoomed-in screenshot of a complex Altium custom query or a clean snippet of a rule definition -->
+        {% include figure.liquid loading="eager" path="assets/img/projects/Ongoing-altium-library-workflow/designrules_polygonconnect.png" title="Custom DRC query for power planes and polygons connect style" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Custom DRC query for power planes and polygons connect style ensuring physical constraints are automatically enforced during layout.</div>
 
 ### 4. Schematic Clarity
 
