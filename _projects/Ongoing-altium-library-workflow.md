@@ -27,16 +27,17 @@ Every footprint is designed adhering strictly to IPC standards, ensuring correct
         {% include figure.liquid loading="eager" path="assets/img/library-pcb-3d.jpg" title="Custom 3D Footprints" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
+<div class="caption">A selection of representative 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
 
 ### 3. Design for Manufacturing (DFM) & Rules Constraints
+
 A beautiful layout is useless if the fabrication house rejects it. To eliminate production delays and guarantee high-yield manufacturing, I maintain a strictly version-controlled set of DRC (Design Rule Check) and ERC (Electrical Rule Check) profiles.
 
 Rather than relying on default parameters, my rule sets are tailored to specific fab capabilities (e.g., standard vs. advanced HDI manufacturing) and employ custom queries to automate complex constraints.
 
-* **Clearance Matrices:** Pre-defined isolation rules for high-voltage and high-current nets.
-* **Impedance Control:** Automated trace width and gap constraints for RF and differential pairs.
-* **Polygon Pours:** Custom thermal relief rules tailored to specific component package sizes to prevent tombstoning during reflow.
+- **Clearance Matrices:** Pre-defined isolation rules for high-voltage and high-current nets.
+- **Impedance Control:** Automated trace width and gap constraints for RF and differential pairs.
+- **Polygon Pours:** Custom thermal relief rules tailored to specific component package sizes to prevent tombstoning during reflow.
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -64,4 +65,3 @@ A footprint is only as good as its manufacturability. I maintain a synchronised 
     </div>
 </div>
 <div class="caption">The underlying metadata schema ensuring accurate procurement and automated BOM generation.</div>
-
