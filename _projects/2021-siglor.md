@@ -43,7 +43,7 @@ Separated the core sub-GHz processing logic (Radio Board) from the power regulat
         {% include figure.liquid loading="eager" path="assets/img/projects/2021-siglor/siglor-radio-3d.png" title="Radio Board" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/siglor/siglor-chassis-3d.png" title="Chassis Board" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2021-siglor/siglor-chassis-3d.png" title="Chassis Board" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">Left: The MCU-driven Radio Board. Right: The dedicated Chassis Board housing power regulation and sensor payloads.</div>
