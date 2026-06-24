@@ -39,7 +39,7 @@ As an Assistant Lecturer, my goal was to elevate the students' understanding of 
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2022-chargingcircuit/chargingcircuit_3d_isometric.png" title="3D Isometric View" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022-chargingcircuit/chargingcircuit-3d-isometric.png" title="3D Isometric View" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">3D isometric render of the battery charger board highlighting the standard, easily accessible components selected for the university laboratory.</div>
