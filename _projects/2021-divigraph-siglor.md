@@ -7,6 +7,19 @@ importance: 1
 category: Professional engagement
 ---
 
+### This page is still a work in progress
+
+Just like me during this triathlon, this page is in progress but not finished yet!
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/placeholder.jpg" title="Work in progress - stay tuned!" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">A selection of bespoke 3D footprints designed for optimal thermal dissipation and high-density routing.</div>
+
+<!-->
+
 The **Siglor** device is a custom-architected IoT environmental sensor node, designed for high reliability and multi-sensor integration and is compatible with both Sigfox and LoRa(WAN) networks. To optimize manufacturing and testing, the system is designed with a modular, dual-board architecture: an MCU-driven Radio Board and a dedicated Chassis (Mounting) Board.
 
 This device was designed and developed as a first iteration prototype for sensing, and therefore was designed with as many prototyping and configurable features. The Chassis (Mounting) board
