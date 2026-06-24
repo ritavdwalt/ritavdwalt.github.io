@@ -79,7 +79,7 @@ To see the hardware and full-stack software operating in real-time, please view 
 <div class="row justify-content-center mt-4">
     <div class="col-sm-10 text-center">
         <div class="embed-responsive embed-responsive-16by9 z-depth-1 rounded">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/https://youtu.be/GgWdfaKdZJU?si=ZR5kBK4GVauKUhch" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GgWdfaKdZJU" allowfullscreen></iframe>
         </div>
     </div>
 </div>
