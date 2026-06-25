@@ -2,7 +2,7 @@
 layout: page
 title: Solar-Powered LoRa Air Quality Monitor
 description: An end-to-end, low-power IoT environmental sensor node featuring custom mixed-signal hardware, I2C sensor integration, and LoRa telemetry. <br> <span class="badge badge-pill badge-primary">Full-Stack IoT</span> <span class="badge badge-pill badge-info">Mixed-Signal PCB</span> <span class="badge badge-pill badge-success">Low-Power Firmware</span> <span class="badge badge-pill badge-warning">Enclosure Design</span>
-img: assets/img/projects/2022-air-quality/aq_hero_image.png
+img: assets/img/projects/2022-solarpower-airquality/pcb_3d.png
 importance: 3
 category: "Professional engagement"
 ---
