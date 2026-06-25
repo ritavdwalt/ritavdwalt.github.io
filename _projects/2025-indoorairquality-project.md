@@ -41,7 +41,7 @@ Deploying hardware is only the first step; maintaining an operational fleet acro
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-projet/sensors_with_powerbank_4_3.jpg" title="Deployed Device in Classroom" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-project/sensors_with_powerbank_4_3.jpg" title="Deployed Device in Classroom" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">One of the 100 custom sensor nodes successfully deployed within a school classroom, actively transmitting indoor air quality telemetry.</div>
