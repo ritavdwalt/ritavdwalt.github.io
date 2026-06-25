@@ -67,7 +67,7 @@ When benchmarked against international environmental standards (SANS, WHO, ASHRA
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairqality-project/bae_plots.png" title="Thermal Solar Loading Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-project/bae_plots.png" title="Thermal Solar Loading Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">Data visualisation demonstrating the automated detection of thermal solar loading anomalies, which directly justified municipal roof retrofitting.</div>
