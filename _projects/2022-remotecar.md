@@ -42,7 +42,7 @@ This phase involved modelling sensor outputs, verifying the analogue subtractor'
         {% include figure.liquid loading="eager" path="assets/img/projects/2022-remotecar/ltspice_simulation.png" title="LTspice Analogue Simulation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">Comprehensive LTspice schematic simulating the analogue control logic and signal conditioning stages prior to hardware prototyping.</div>
+<div class="caption">Extract from LTspice schematic simulating the analogue control logic and signal conditioning stages prior to hardware prototyping, showing part of the design for the right wheel.</div>
 
 ---
 
