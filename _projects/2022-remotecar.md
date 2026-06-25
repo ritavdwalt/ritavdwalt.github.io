@@ -29,6 +29,13 @@ The core technical challenge was architecting a system where analogue circuitry 
 </div>
 <div class="caption">High-level system diagram demonstrating the isolated processing paths for the analogue object avoidance logic and the ESP32 digital remote control interface.</div>
 
+<div class="row justify-content-center text-center mt-4">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/2022-remotecar/deviceoverview.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    </div>
+</div>
+<div class="caption">Remote-controlled car overview, with combination of analogue and digital design. </div>
+
 ---
 
 ### 2. Simulation & Verification (LTspice)
