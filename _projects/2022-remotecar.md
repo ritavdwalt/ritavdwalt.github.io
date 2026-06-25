@@ -54,7 +54,7 @@ Instead of relying on subjective manual testing, I utilised **Autodesk Inventor*
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2022-remotecar/testing_station.gif" title="Automated Testing Mount Demonstration" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/projects/2022-remotecar/testing_station.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
 </div>
 <div class="caption">Simulated live testing environment showcasing the hardware running at full throttle while suspended on the custom 3D-printed assessment fixture for wheel rotation tests, while measurements and performance is monitored at three different test points with multimeters, and with an oscilloscope. The wheel slows down as an object comes closer, and comes to a full stop when the object gets too close. </div>
