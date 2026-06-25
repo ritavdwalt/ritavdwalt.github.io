@@ -44,7 +44,7 @@ Deploying hardware is only the first step; maintaining an operational fleet acro
         {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-project/sensors_with_powerbank_4_3.jpg" title="Deployed Device in Classroom" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">One of the 100 custom sensor nodes successfully deployed within a school classroom, actively transmitting indoor air quality telemetry.</div>
+<div class="caption">Two of the 100 custom sensor nodes successfully deployed within a school classroom, actively transmitting indoor air quality telemetry.</div>
 
 ---
 
@@ -52,7 +52,7 @@ Deploying hardware is only the first step; maintaining an operational fleet acro
 
 With a fleet of 100 devices transmitting high-frequency data, I engineered a robust, automated backend to capture and structure the telemetry without data loss.
 
-- **Ingestion Pipelines:** I architected custom data pipeline workflows utilizing Webhooks and JavaScript (Google Apps Script) to capture, decrypt, and log real-time telemetry data transmitted from the remote gateways.
+- **Ingestion Pipelines:** I architected custom data pipeline workflows utilising Webhooks and JavaScript (Google Apps Script) to capture, decrypt, and log real-time telemetry data transmitted from the remote gateways.
 - **Data Cleaning & Validation:** Managing the ingestion of over **3 million data points**, I developed automated filtering algorithms in Python (utilising Pandas and SciPy). These algorithms successfully identified and isolated sensor drift, warm-up anomalies, and false readings while preserving the raw telemetry for post-hoc reliability analysis.
 
 ---
