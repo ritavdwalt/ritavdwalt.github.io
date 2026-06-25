@@ -66,4 +66,4 @@ Utilising **Autodesk Inventor**, I modeled a two-part assembly consisting of a m
 
 **Downloadable documentation:**
 
-- [Download Selected Schematics (PDF)](/assets/pdf/projects/2022-solarpower-airquality/2022-SolarPower-AirQuality.PDF)
+- [Full schematics and PCB (PDF)](/assets/pdf/projects/2022-solarpower-airquality/2022-SolarPower-AirQuality.PDF)
