@@ -4,7 +4,7 @@ title: Saldanha Bay PM2.5 Environmental Logger
 description: A custom solar-powered particulate matter and temperature data logger engineered for an interdisciplinary Earth Sciences study on industrial dust pollution. <br> <span class="badge badge-pill badge-primary">Interdisciplinary Research</span> <span class="badge badge-pill badge-info">Hardware Design</span> <span class="badge badge-pill badge-success">Firmware</span> <span class="badge badge-pill badge-warning">Field Deployment</span>
 img: assets/img/projects/2024-saldanha-air-quality/installation.jpg
 importance: 2
-category: "Professional engagement"
+category: "Academic research"
 ---
 
 Air pollution and industrial dust emissions present significant environmental and public health concerns. To accurately track these emissions around the industrial hub of Saldanha Bay, the BIOGRIP Earth Sciences research group required high-frequency, autonomous particulate matter (PM2.5) data from the field.
