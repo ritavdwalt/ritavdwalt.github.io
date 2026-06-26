@@ -62,12 +62,13 @@ Deploying hardware is only the first step; maintaining an operational fleet acro
 
 ---
 
-### 3. Data engineering & Pipeline architecture
+### 3. Full-Stack Data Engineering & Pipeline Architecture
 
-With a fleet of 100 devices transmitting high-frequency data, I engineered a robust, automated backend to capture and structure the telemetry without data loss.
+With a fleet of 100 devices transmitting high-frequency LoRaWAN data across distributed sites, the limiting factor of the project was not hardware, but data integrity. I engineered a robust, automated backend pipeline to capture, parse, and structure the telemetry without data loss.
 
-- **Ingestion Pipelines:** I architected custom data pipeline workflows utilising Webhooks and JavaScript (Google Apps Script) to capture, decrypt, and log real-time telemetry data transmitted from the remote gateways.
-- **Data Cleaning & Validation:** Managing the ingestion of over **3 million data points**, I developed automated filtering algorithms in Python (utilising Pandas and SciPy). These algorithms successfully identified and isolated sensor drift, warm-up anomalies, and false readings while preserving the raw telemetry for post-hoc reliability analysis.
+- **Real-Time Ingestion (JavaScript & Webhooks):** I architected custom serverless workflows utilizing Google Apps Script and secure Webhooks to intercept the raw data payloads arriving from the LoRaWAN gateways. The scripts handled real-time decryption, JSON parsing, and initial metadata tagging before logging the data to a central repository.
+- **Algorithmic Data Cleaning (Python):** Managing the ingestion of over **3 million data points** required rigorous, programmatic quality control. I developed automated filtering scripts in Python utilizing Pandas and SciPy to clean the raw datasets.
+- **Anomaly Detection & Validation:** The Python pipeline successfully identified and isolated hardware-level noise, including sensor drift, component warm-up anomalies, and false readings, while permanently archiving the raw telemetry for post-hoc reliability analysis and version control.
 
 ---
 
