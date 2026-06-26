@@ -73,7 +73,7 @@ This required high-level **Science Communication**—distilling dense statistica
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2024-fireplaces/behavior_change.png" title="Behavioral Change Data" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2024-fireplaces/behaviour_change.png" title="Behavioral Change Data" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">Time-series data proving the immediate, drastic reduction in indoor PM2.5 levels after occupants were informed of the sensor readings.</div>
