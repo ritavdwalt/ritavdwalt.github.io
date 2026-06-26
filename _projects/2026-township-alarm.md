@@ -9,7 +9,7 @@ category: "Highlights"
 
 Deploying hardware in informal settlements presents one of the most rigorous engineering challenges in the IoT industry. Devices must be exceptionally low-cost for mass scalability, yet physically robust enough to survive extreme indoor temperatures, dust, unstable power grids, and physical tampering.
 
-Partnering with a major infrastructure provider deploying connectivity in South African townships, I directed the end-to-end development of a bespoke, mass-scale IoT alarm system designed specifically for shack environments. This device includes a **whatsapp-operated arming and disarming**, **motion detect**, **siren integration**, **panic button** and **fire sensor**. 
+Partnering with a major infrastructure provider deploying connectivity in South African townships, I directed the end-to-end development of a bespoke, mass-scale IoT alarm system designed specifically for shack environments. This device includes a **whatsapp-operated arming and disarming**, **motion detect**, **siren integration**, **panic button** and **fire sensor**.
 
 Operating as the lead systems architect and technical product manager, I drove the complete product lifecycle: from initial customer engagement and requirement scoping, through custom hardware and firmware engineering, enclosure design, and the final transition to mass manufacturing (DFM).
 
