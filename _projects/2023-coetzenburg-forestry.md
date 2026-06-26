@@ -2,7 +2,7 @@
 layout: page
 title: LoRaWAN Forest Wind Monitoring System
 description: Adapting a generic IoT architecture for rugged outdoor canopy windspeed monitoring, featuring custom pulse-counting firmware and a user-friendly ThingSpeak pipeline. <br> <span class="badge badge-pill badge-primary">Hardware Adaptation</span> <span class="badge badge-pill badge-info">Data Engineering</span> <span class="badge badge-pill badge-success">Embedded C++</span> <span class="badge badge-pill badge-warning">Collaboration</span>
-img: assets/img/projects/2023-coetzenburg-forestry/in_tree_zoomed.jpeg
+img: assets/img/projects/2023-coetzenburg-forestry/anemometer.png
 importance: 4
 category: "Professional engagement"
 ---
