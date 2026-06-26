@@ -13,6 +13,13 @@ Operating as the sole systems architect, I executed the entire "sensor-to-policy
 
 The resulting observational analysis was presented to the City of Cape Town's Environmental Health specialists, directly influencing capital infrastructure upgrades (roof retrofitting) for container classrooms.
 
+<div class="row justify-content-center text-center mt-4">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-project/device_topview.png" title="Device top view" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Top view of generic monitoring device.</div>
+
 ---
 
 ### 1. Hardware architecture & Mass production
