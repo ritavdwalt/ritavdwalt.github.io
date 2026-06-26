@@ -7,11 +7,18 @@ importance: 1
 category: "Academic research"
 ---
 
-Infrastructure dictates the indoor air environment, which in turn acts as a critical driver of educational equity. To quantify health, comfort, and cognitive risks in low-income educational infrastructure, a highly resilient, long-term environmental monitoring system was required.
+Infrastructure dictates the indoor air environment, which in turn acts as a critical driver of educational equity. To quantify health, comfort, and cognitive risks in low-income educational infrastructure, a highly resilient, long-term environmental monitoring data system was required.
 
-Operating as the sole systems architect, I executed the entire "sensor-to-policy" pipeline. I designed and mass-produced the generic IoT hardware, deployed and managed the multi-site LoRaWAN network, and architected the data pipelines to ingest over 3 million data points over a 24-month period.
+Executed as the core architecture of my PhD research, I operated as the sole systems architect across the entire "sensor-to-policy" pipeline. I designed and mass-produced the IoT hardware, managed the multi-site LoRaWAN network, and engineered the end-to-end data pipelines required to securely ingest, clean, and structure over 3 million telemetry data points over a 24-month period.
 
 The resulting observational analysis was presented to the City of Cape Town's Environmental Health specialists, directly influencing capital infrastructure upgrades (roof retrofitting) for container classrooms.
+
+<div class="row justify-content-center text-center mt-4">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025-indoorairquality-project/experimental_design.png" title="End-to-End systems architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">The full-stack systems architecture and data pipeline developed to translate raw LoRaWAN telemetry into actionable municipal policy.</div>
 
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
