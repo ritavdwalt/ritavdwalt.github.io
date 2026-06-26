@@ -28,7 +28,7 @@ _Note: Due to active commercial Non-Disclosure Agreements (NDAs) and IP protecti
 <div class="row justify-content-center text-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         <!-- Placeholder for your sanitized PCB render -->
-        {% include figure.liquid loading="eager" path="assets/img/projects/2026-township-alarm/pcb_3d_topview_redacted.jpg" title="Sanitized PCB Render" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2026-township-alarm/pcb_3d_topview_redacted.png" title="Sanitized PCB Render" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">A sanitized 3D Altium render of the production-candidate PCB, demonstrating the highly optimized, scalable footprint designed for high-volume manufacturing.</div>
