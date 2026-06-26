@@ -56,7 +56,7 @@ The physical reality of an informal settlement requires enclosures that are as t
 <div class="row justify-content-center text-center mt-4">
     <div class="col-sm-8 mt-3 mt-md-0">
         <!-- Placeholder for your enclosure design -->
-        {% include figure.liquid loading="eager" path="assets/img/projects/township-alarm/photo_3d_enclosure.jpg" title="Enclosure CAD Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2026-township-alarm/photo_3d_enclosure.jpg" title="Enclosure CAD Model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">Autodesk Inventor mechanical design of the alarm enclosure, engineered for injection molding and rapid field installation.</div>
