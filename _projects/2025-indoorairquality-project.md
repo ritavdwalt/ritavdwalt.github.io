@@ -4,7 +4,7 @@ title: Scalable LoRaWAN Environmental Network
 description: An end-to-end industrial IoT telemetry network—from custom hardware manufacturing to data pipelines—driving municipal infrastructure policy. <br> <span class="badge badge-pill badge-primary">Full-Stack IoT</span> <span class="badge badge-pill badge-info">LoRaWAN (RFM95)</span> <span class="badge badge-pill badge-success">Data Engineering</span> <span class="badge badge-pill badge-warning">Policy Impact</span>
 img: assets/img/projects/2025-indoorairquality-project/sensor_3dview_4_3.jpg
 importance: 1
-category: "Academic research"
+category: "Highlights"
 ---
 
 Infrastructure dictates the indoor air environment, which in turn acts as a critical driver of educational equity. To quantify health, comfort, and cognitive risks in low-income educational infrastructure, a highly resilient, long-term environmental monitoring data system was required.

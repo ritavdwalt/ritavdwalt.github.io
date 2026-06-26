@@ -4,7 +4,7 @@ title: Mass-Scale IoT Alarm System for Informal Settlements
 description: An end-to-end, commercially deployed security node engineered for mass rollout in South African townships, featuring extreme DFM and cost-optimized hardware. <br> <span class="badge badge-pill badge-primary">Commercial IoT</span> <span class="badge badge-pill badge-info">DFM & Mass Scale</span> <span class="badge badge-pill badge-success">Firmware</span> <span class="badge badge-pill badge-warning">Product Management</span>
 img: assets/img/projects/2026-township-alarm/pcb_3d_isometric.png
 importance: 1
-category: "Professional engagement"
+category: "Highlights"
 ---
 
 Deploying hardware in informal settlements presents one of the most rigorous engineering challenges in the IoT industry. Devices must be exceptionally low-cost for mass scalability, yet physically robust enough to survive extreme indoor temperatures, dust, unstable power grids, and physical tampering.
