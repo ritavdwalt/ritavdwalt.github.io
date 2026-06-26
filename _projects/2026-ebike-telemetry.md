@@ -4,7 +4,7 @@ title: Commercial E-Bike Telemetry & Fleet Management
 description: Lead Project Engineer for an in-development, enterprise-scale cargo e-bike telemetry system focusing on real-time location tracking and battery lifecycle management. <br> <span class="badge badge-pill badge-primary">Lead Project Engineer</span> <span class="badge badge-pill badge-info">Commercial Telemetry</span> <span class="badge badge-pill badge-success">Systems Architecture</span> <span class="badge badge-pill badge-warning">Active Development</span>
 img: assets/img/projects/2026-ebike-telemetry/system_architecture_block.png
 importance: 2
-category: "Professional engagement"
+category: "Highlights"
 ---
 
 *Note: This commercial hardware project is currently in the active design and development phase. Due to strict intellectual property protection, specific component selections, schematics, and the client identity have been omitted from this public portfolio.*
